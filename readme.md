@@ -9,3 +9,6 @@ This repository contains the LaTeX source code for my thesis submitted as part o
 
 ## 📂 Repository Structure
 
+
+##  License
+This project is licensed under the [MIT License](LICENSE).
