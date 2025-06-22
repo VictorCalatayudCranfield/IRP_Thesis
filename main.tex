@@ -1,0 +1,47 @@
+
+% Tell VimTeX this is the root file:
+% !TEX root = MAIN.tex
+
+
+
+\documentclass[openbib]{aer}      % Specifies the document class
+\usepackage[utf8]{inputenc}
+                             % The preamble begins here.
+\usepackage[super,comma,round]{natbib}
+\usepackage[figuresleft]{rotating}
+
+
+\usepackage{txfonts}%
+
+\jmonth{Month}
+\jyear{2016}
+\volume{000}
+\issue{0000}
+\doi{10.1017/aer.2016.1}
+\historydate{Received DD MM YYYY; revised DD MM YYYY; accepted DD MM YYYY}
+
+             % End of preamble and beginning of text.
+\begin{document}
+
+%%%%%TITLE AND INFORMATION 
+\input{Sections/02Title_Information}
+
+%%%%%ABSTRACT
+\input{Sections/03Abstract}
+
+%%%%%CHAPTERS
+\input{Sections/05Chapters/051Introduction}
+
+%%%%%ACKNOWLEDGEMENTS
+\input{Sections/06Acknowledgements}
+
+%%%%%BIBLIOGRAPHY
+\bibliographystyle{plain}
+\bibliography{MyBib}
+
+
+%%%%%APPENDIX
+\input{Sections/08Appendix}
+
+
+\end{document}               % End of document.
