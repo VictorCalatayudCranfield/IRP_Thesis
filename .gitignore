@@ -1,0 +1,14 @@
+# Ignore LaTeX build files
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.out
+*.gz
