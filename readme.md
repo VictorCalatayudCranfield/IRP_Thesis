@@ -9,3 +9,7 @@ This repository contains the LaTeX source code for my thesis submitted as part o
 
 ## 📂 Repository Structure
 
+
+## 📦 Building
+
+Compile the `MAIN.tex` file using your preferred LaTeX toolchain (e.g. `pdflatex` or `latexmk`) to produce the thesis PDF. All chapter files are included via `\input` directives in `MAIN.tex`.
