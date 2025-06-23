@@ -8,6 +8,11 @@ This repository contains the LaTeX source code for the MSc Individual Research P
 
 ## 📂 Repository Structure
 
+
+## 📦 Building
+
+Compile the `MAIN.tex` file using your preferred LaTeX toolchain (e.g. `pdflatex` or `latexmk`) to produce the thesis PDF. All chapter files are included via `\input` directives in `MAIN.tex`.
+
 - `main.tex` – top-level LaTeX file that includes all chapters
 - `aer.cls` – custom class file used for formatting
 - `Sections/` – folder containing the title page, abstract, chapters, and appendices
@@ -40,3 +45,5 @@ The document class `aer.cls` is bundled in this repository.
 Victor Calatayud – <v.calatayudgarcia@cranfield.ac.uk>
 
 This repository currently has no explicit license. Please contact the author if you wish to reuse the material.
+
+
