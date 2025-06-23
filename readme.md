@@ -9,6 +9,9 @@ This repository contains the LaTeX source code for the MSc Individual Research P
 ## 📂 Repository Structure
 
 
+##  License
+This project is licensed under the [MIT License](LICENSE).
+
 ## 📦 Building
 
 Compile the `MAIN.tex` file using your preferred LaTeX toolchain (e.g. `pdflatex` or `latexmk`) to produce the thesis PDF. All chapter files are included via `\input` directives in `MAIN.tex`.
